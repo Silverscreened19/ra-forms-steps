@@ -101,6 +101,8 @@ export default function Steps() {
             className="km-input"
             type="number"
             placeholder="Километры"
+            step={0.1}
+            min={0}
             value={distance}
             onChange={handleDistanceChange}
           />
